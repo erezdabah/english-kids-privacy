@@ -4,7 +4,7 @@ title: Privacy Policy — English Fun!
 
 # Privacy Policy — English Fun! (English Kids)
 
-_Last updated: 2026-05-31_
+_Last updated: 2026-07-16_
 
 English Fun! ("the app") is an English-learning app for children. We designed it to be safe and private by default. This policy explains what the app does and does not do with information.
 
@@ -43,23 +43,23 @@ Parent Area ("מחיקת חשבון"). Deleting the app also removes all local d
 
 ## Microphone & speech recognition
 
-One game ("Say It" / "תגיד את זה") lets a child practice saying an English word out loud. When the child taps the microphone:
+Some games (such as "Say It" / "תגידו באנגלית", the counting game, and the feeding game) let a child practice saying an English word out loud. When the child taps the microphone:
 
-- The microphone is used **only** during that activity.
-- Speech is processed **on the device** using Apple's built-in speech recognition.
-- **No audio is recorded, saved, or sent anywhere.** It is used in the moment only to check whether the word was said, and then discarded.
-
-The microphone is never used outside this game.
+- The microphone is used **only** during that activity, and never outside the speaking games.
+- Speech is recognized by the **device's built-in speech service** — Apple's speech recognition on iPhone/iPad, and Google's speech recognition on Android. As with system dictation, the audio may be processed on Apple's or Google's servers to perform the recognition, under their respective privacy terms ([Apple](https://www.apple.com/legal/privacy/), [Google](https://policies.google.com/privacy)).
+- **We never receive, record, save, or share any audio.** The app uses the recognition result in the moment, only to check whether the word was said, and then discards it. No recordings or transcripts are stored on the device or sent to us.
 
 ## Children's privacy
 
-The app is intended for children and complies with Apple's Kids Category requirements and applicable children's privacy laws (such as COPPA and GDPR-K). Because the app collects no data, there is no personal information of children (or anyone) to access, use, or disclose. There are no behavioral ads and no third-party data sharing.
+The app is intended for children and complies with Apple's Kids Category requirements and applicable children's privacy laws (such as COPPA and GDPR-K). The app itself collects no data, so there is no personal information of children (or anyone) for us to access, use, or disclose; speech recognition is performed by the device's operating system as described above. There are no behavioral ads and no third-party data sharing.
 
 ## No third parties
 
 The app contains no advertising SDKs, no analytics SDKs, and no social logins.
 Optional cloud backup (above) uses Supabase solely to store a parent's account
-and a child's game progress — never for advertising or tracking.
+and a child's game progress — never for advertising or tracking. Speech
+recognition (above) is provided by the device's operating system (Apple /
+Google), not by an embedded third-party SDK, and we receive no audio from it.
 
 ## Changes to this policy
 
