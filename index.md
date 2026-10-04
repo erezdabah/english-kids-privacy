@@ -1,12 +1,27 @@
 ---
-title: Privacy Policy — English Fun!
+title: Privacy Policy — Say it! מדברים אנגלית
 ---
 
-# Privacy Policy — English Fun! (English Kids)
+# Privacy Policy — Say it! מדברים אנגלית
 
-_Last updated: 2026-07-16_
+_Last updated: 2026-10-04_
 
-English Fun! ("the app") is an English-learning app for children. We designed it to be safe and private by default. This policy explains what the app does and does not do with information.
+## Who this policy belongs to
+
+| | |
+|---|---|
+| **App name (App Store / Google Play)** | Say it! מדברים אנגלית |
+| **App name on the device** | Say it! |
+| **Developer** | Say it! מדברים אנגלית (Erez Dabah) |
+| **Android package name** | `com.master.erez.EnglishKids` |
+| **Apple App ID** | 6775514156 |
+| **Contact** | erezdabah@gmail.com |
+
+This is the privacy policy for the app listed above, on both Google Play and the
+Apple App Store. It is published and maintained by the same developer who
+publishes the app.
+
+Say it! ("the app") is an English-learning app for children. We designed it to be safe and private by default. This policy explains what the app does and does not do with information.
 
 ## The short version
 
@@ -41,6 +56,23 @@ email + password). Creating an account turns on cloud backup. When enabled:
 A parent can **delete the account and all cloud data at any time** from the
 Parent Area ("מחיקת חשבון"). Deleting the app also removes all local data.
 
+## Subscriptions
+
+The app offers an optional paid subscription, bought by a parent through a
+parent gate. The purchase itself is made with **Apple** or **Google**, and we
+never see or receive payment card details.
+
+To check whether a subscription is active, the app uses **RevenueCat**, a
+subscription-management service. RevenueCat processes the store's purchase
+receipt, an anonymous identifier the app generates for the installation, and
+basic technical information such as the platform, app version and country.
+
+- RevenueCat never receives the child's name, the chosen character, or game content.
+- We do not use RevenueCat, or any purchase information, for advertising,
+  profiling or tracking across apps or websites.
+
+RevenueCat's own privacy policy: <https://www.revenuecat.com/privacy/>
+
 ## Microphone & speech recognition
 
 Some games (such as "Say It" / "תגידו באנגלית", the counting game, and the feeding game) let a child practice saying an English word out loud. When the child taps the microphone:
@@ -51,15 +83,19 @@ Some games (such as "Say It" / "תגידו באנגלית", the counting game, a
 
 ## Children's privacy
 
-The app is intended for children and complies with Apple's Kids Category requirements and applicable children's privacy laws (such as COPPA and GDPR-K). The app itself collects no data, so there is no personal information of children (or anyone) for us to access, use, or disclose; speech recognition is performed by the device's operating system as described above. There are no behavioral ads and no third-party data sharing.
+The app is intended for children and complies with Apple's Kids Category requirements, Google Play's Families policy, and applicable children's privacy laws (such as COPPA and GDPR-K). The app collects no personal information from children; speech recognition is performed by the device's operating system as described above. There are no behavioral ads and no sharing of data for advertising.
 
-## No third parties
+## Third parties we use
 
-The app contains no advertising SDKs, no analytics SDKs, and no social logins.
-Optional cloud backup (above) uses Supabase solely to store a parent's account
-and a child's game progress — never for advertising or tracking. Speech
-recognition (above) is provided by the device's operating system (Apple /
-Google), not by an embedded third-party SDK, and we receive no audio from it.
+The app contains **no advertising SDKs, no analytics SDKs, and no social logins**, and no advertising identifier (such as Apple's IDFA or Android's advertising ID) is collected or shared. The only third parties involved are:
+
+| Service | What it is used for | What it receives |
+|---|---|---|
+| **Supabase** | Optional parent-enabled cloud backup | Parent's email and game progress |
+| **RevenueCat** | Checking whether a subscription is active | Purchase receipt, anonymous install identifier, platform / version / country |
+| **Apple · Google** | Processing the purchase, and on-device speech recognition | Handled under their own privacy policies |
+
+None of these are used for advertising, profiling, or tracking across other apps or websites.
 
 ## Changes to this policy
 
