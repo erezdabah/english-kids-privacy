@@ -85,9 +85,9 @@ Some games (such as "Say It" / "תגידו באנגלית", the counting game, a
 
 The app is intended for children and complies with Apple's Kids Category requirements, Google Play's Families policy, and applicable children's privacy laws (such as COPPA and GDPR-K). The app collects no personal information from children; speech recognition is performed by the device's operating system as described above. There are no behavioral ads and no sharing of data for advertising.
 
-## Third parties we use
+## Service providers we use
 
-The app contains **no advertising SDKs, no analytics SDKs, and no social logins**, and no advertising identifier (such as Apple's IDFA or Android's advertising ID) is collected or shared. The only third parties involved are:
+The app contains **no advertising SDKs, no analytics SDKs, and no social logins**, and no advertising identifier (such as Apple's IDFA or Android's advertising ID) is collected or shared. The only outside services involved are:
 
 | Service | What it is used for | What it receives |
 |---|---|---|
@@ -95,7 +95,10 @@ The app contains **no advertising SDKs, no analytics SDKs, and no social logins*
 | **RevenueCat** | Checking whether a subscription is active | Purchase receipt, anonymous install identifier, platform / version / country |
 | **Apple · Google** | Processing the purchase, and on-device speech recognition | Handled under their own privacy policies |
 
-None of these are used for advertising, profiling, or tracking across other apps or websites.
+Each of these acts as a **service provider processing data on our behalf**, under contract and
+only for the purpose shown above. We do not sell user data, and we do not share it with any
+third party for that party's own purposes — including advertising, profiling, or tracking across
+other apps or websites.
 
 ## Changes to this policy
 
